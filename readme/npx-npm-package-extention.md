@@ -40,7 +40,7 @@ npx ls
 
 注意，Bash 内置的命令不在$PATH里面，所以不能用。比如，cd是 Bash 命令，因此就不能用npx cd。
 
-## 4.2 避免全局安装模块
+## 1.2 避免全局安装模块
 
 除了调用项目内部模块，npx 还能避免全局安装的模块。比如，create-react-app 这个模块是全局安装，npx 可以运行它，而且不进行全局安装。
 
@@ -56,7 +56,7 @@ npx create-react-app my-react-app
 npx http-server
 ```
 
-## 4.3 --no-install 参数和 --ignore-existing 参数
+## 1.3 --no-install 参数和 --ignore-existing 参数
 
 如果想让 npx 强制使用本地模块，不下载远程模块，可以使用--no-install参数。如果本地不存在该模块，就会报错。
 
