@@ -6,3 +6,4 @@
   * [NRM: npm registry manager](readme/nrm-npm-registry-manager.md)
   * [NPX: npm package extention](readme/npx-npm-package-extention.md)
 * [ESM 与 CommonJS](esm-yu-commonjs.md)
+* [Node 调试](node-tiao-shi.md)
